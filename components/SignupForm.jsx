@@ -50,7 +50,7 @@ export default function SignupForm() {
 
             if (res.ok) {
                 formRef.current.reset();
-                router.push("/")
+                router.push("/login")
             } else {
                
                 console.log("User registration failed.")
@@ -76,7 +76,7 @@ export default function SignupForm() {
                     )
                     }
 
-                    <Link className="text-sm mt-3 text-right" href={"/"}>Already have an account? <span>Login</span></Link>
+                    <Link className="text-sm mt-3 text-right" href={"/login"}>Already have an account? <span>Login</span></Link>
                 </form>
             </div>
         </div>
