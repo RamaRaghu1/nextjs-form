@@ -13,11 +13,16 @@ const NavBar = () => {
     const links = [
         {
             id: 1,
+            link: "HOME",
+            path: "/"
+        },
+        {
+            id: 2,
             link: "COURSES",
             path: "/courses"
         },
         {
-            id: 2,
+            id: 3,
             link: "ABOUT US",
             path: "/about-kairaa-academy"
         },
@@ -32,7 +37,7 @@ const NavBar = () => {
         //     path: "#"
         // },
         {
-            id: 5,
+            id: 4,
             link: "CONTACT US",
             path: "/contact"
         },
